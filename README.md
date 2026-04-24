@@ -23,7 +23,7 @@ I made another branch for each version off of development, the idea being that i
 I wanted to work with incremental changes in Unity version to not only keep a better record of what broke when, but also because I had an idea that Unity would be much better at being able to handle minor version changes instead of a big shock if I went straight to Version 6.3. I decided that a year gap between each version number was probably sufficient in this case.
 
 Verion 2021 -> 2022
-- Before even launching the project, I deleted the Library folder, Temp folders, and everything else Unity could not regenerate on its own. This may not have been necessary, but I felt it would help my chances with a clean update.
+- Before even launching the project, I deleted the Library folder, Temp folders, and everything else Unity could regenerate on its own. This may not have been necessary, but I felt it would help my chances with a clean update.
 - Upon launching the project after moving versions I was immediately greeted with the message that the URP materials would have to be updated. Clicked proceed and went on, no issues there.
 - There were no errors in the console log, and after hitting play no errors were found after trying to achieve all game states (playing through the level, visiting the store, leaderboards etc.)
 - While the game was running at a similar framerate, I did note that the CPU Main was averaging about 50ms per frame instead of the 5ms it was preivously. This felt like minor enough not to be a problem, but I wanted to write it down if it became relevant later. 
